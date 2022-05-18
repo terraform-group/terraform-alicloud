@@ -8,8 +8,8 @@ provider "alicloud" {
 data "terraform_remote_state" "mydata" {
   backend = "oss"
   config = {
-    access_key = "LTAI5tC6oDjBoGAv5AfWGj76"
-    secret_key = "NKUISupaVOUiWpl74mcBAzGuGbsL4S"
+    access_key = "LTAI5tC6oDj76"
+    secret_key = "NKUIAzGuGbsL4S"
     bucket     = "tf-backend-datas"
     prefix     = "dev/network"
     key        = "terraform-dev-network.tfstate"
